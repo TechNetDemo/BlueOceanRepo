@@ -11,7 +11,7 @@ pipeline {
         build '/Case 2/Delivery_Deploy'
       }
     }
-    stage('') {
+    stage('Stage3') {
       steps {
         build 'Pipeline_with_pass'
       }
