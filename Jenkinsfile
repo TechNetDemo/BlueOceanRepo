@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Stage2') {
       steps {
-        build 'Case2/Delivery_Deploy'
+        build '/Case2/Delivery_Deploy'
       }
     }
   }
