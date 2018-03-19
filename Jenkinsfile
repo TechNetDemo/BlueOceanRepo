@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Stage2') {
       steps {
-        build '/Case 2/Delivery_Deploy'
+        build (job: '/Case 2/Delivery_Build',  parameters: [string(name: 'yourName', value: 'valueFromPipeline')])
       }
     }
     stage('Stage3') {
