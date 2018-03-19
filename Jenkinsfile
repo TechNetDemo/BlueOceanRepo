@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Stage1') {
       steps {
-        echo 'Hello GitHub from BlueOcean'
+        echo 'Hello GitHub from manual-configured Jenkinsfile'
       }
     }
   }
